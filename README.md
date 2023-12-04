@@ -25,3 +25,12 @@ python3 ./train.py
 ``` bash
 python3 ./test.py
 ```
+
+## Results
+- model: https://huggingface.co/solikang/koelectra-small-v3-nsmc
+- dataset: https://huggingface.co/datasets/solikang/invest_opinion_1w_sample
+
+## References
+- https://github.com/monologg/KoELECTRA
+- https://github.com/daekeun-ml/sm-huggingface-kornlp
+
