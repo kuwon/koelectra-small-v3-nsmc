@@ -1,0 +1,9 @@
+[{inference.py:49} INFO - input text: 건설 테마 주식을 살지 말지 고민이다
+[{inference.py:49} INFO - input text: 사업구조의 개편이 완료되었고, 다각화를 모색하고 있음
+[{inference.py:49} INFO - input text: GS건설-사고 수습이 우선 1) 인천 검단현장 주차장 붕괴 사고로 인해 2Q23 5,500억 원 충당금 선반영 2) 8월 중 발표된 국토교통부의 GS건설 전국 현장 조사에서 추가 부실은 없는 것으로 판명된 한편, 10개월 영업정지 페널티도 일단 공개된 상황으로 불확실성 일부 해소 3) 최근 올해 첫 서울 지역 재건축 수주에 성공하였으나, 경쟁사 대비 낮은 공사비를 제시한 것으로 알려져 있어 아직 브랜드 파워가 온전히 유지되는지는 추가 확인 필요
+[{inference.py:80} INFO - predicted_class: BUY
+[{inference.py:87} INFO - jsonline: {"predicted_label": "BUY", "score": 0.3181191384792328}
+[{inference.py:80} INFO - predicted_class: BUY
+[{inference.py:87} INFO - jsonline: {"predicted_label": "BUY", "score": 0.31912702322006226}
+[{inference.py:80} INFO - predicted_class: BUY
+[{inference.py:87} INFO - jsonline: {"predicted_label": "BUY", "score": 0.31957176327705383}
