@@ -5,6 +5,7 @@ import argparse
 from datasets import Dataset, load_from_disk
 
 src_gen_dir = 'datasets/src_gen'
+dataset_path = "YOUR_DATASET_PATH"
 
 opinion_list = list()
 for one_html in os.listdir(src_gen_dir):
@@ -35,7 +36,7 @@ if __name__ == "__main__":
     samples = load_from_disk(f"datasets/{ds_name}").train_test_split(test_size=0.2)
     print(samples)
     samples.push_to_hub("solikang/invest_opinion_1w_sample", private=True)
-    json_file_path = f'/Users/a113211/workspace/yonsei/koTabLLM/koelectra-small-v3-nsmc/datasets/{ds_name}/dataset_info.json'
+    json_file_path = f'{dataset_path}/{ds_name}/dataset_info.json'
 
     # Read the JSON file
     with open(json_file_path, 'r') as json_file:
